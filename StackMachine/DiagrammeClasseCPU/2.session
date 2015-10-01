@@ -1,0 +1,15 @@
+window_sizes 975 894 300 900 738 82
+diagrams
+  active  classdiagram_ref 128002 // DiagrammeClasse
+    711 590 100 4 0 0
+end
+show_stereotypes
+selected attribute_ref 131458 // stack
+open
+  class_ref 128002 // CPU
+  class_ref 128130 // IO
+  class_ref 128258 // Machine
+  class_ref 128386 // MachineLauncher
+  class_ref 128642 // Stack
+end
+end
