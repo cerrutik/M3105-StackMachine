@@ -1,15 +1,19 @@
-window_sizes 975 894 300 900 738 82
+window_sizes 1280 962 300 900 738 82
 diagrams
   active  classdiagram_ref 128002 // DiagrammeClasse
-    711 590 100 4 0 0
+    894 782 100 4 0 0
 end
 show_stereotypes
-selected attribute_ref 131458 // stack
+selected 
+  package_ref 129 // DiagrammeClasseCPU
 open
   class_ref 128002 // CPU
   class_ref 128130 // IO
   class_ref 128258 // Machine
   class_ref 128386 // MachineLauncher
+  class_ref 128514 // Program
   class_ref 128642 // Stack
+  class_ref 128770 // Memory
+  class_ref 128898 // Instruction
 end
 end

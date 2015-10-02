@@ -1,6 +1,6 @@
 format 76
 "DiagrammeClasseCPU"
-  revision 1
+  revision 2
   modified_by 2 ""
 
 
@@ -38,5 +38,7 @@ format 76
 
   mark_for_import
   
+  ncouples 1
+  key "html dir" value "G:/public_html/s3/java/DiagrammeClasseCPU/doc/"
   package_ref 128002 // DiagrammeClasse
 end

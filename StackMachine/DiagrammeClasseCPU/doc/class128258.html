@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class Machine</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class Machine</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_128258"></a>
+<p>Declaration :</p><ul>
+<li>Java : package class Machine </li></ul><div class="sub">
+<a name="ref1_131202"></a>
+<table><tr><td><div class="element">Attribute <b>cpu</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - cpu : CPU</li><li>Java : private CPU cpu</li></ul><a name="ref1_131330"></a>
+<table><tr><td><div class="element">Attribute <b>programMemory</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - programMemory : Memory</li><li>Java : private Memory programMemory</li></ul><a name="ref2_128642"></a>
+<table><tr><td><div class="element">Operation <b>Machine</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Machine(in cpu : CPU, in programMemory : Memory, in expStack : stack, in callStack : stack, in ioSystem : IO) : </li><li>Java : public Machine(CPU cpu, Memory programMemory, stack expStack, stack callStack, IO ioSystem) </li></ul><a name="ref2_128770"></a>
+<table><tr><td><div class="element">Operation <b>loadProgram</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + loadProgram(in program : Program) : void</li><li>Java : public void loadProgram(Program program)</li></ul><a name="ref2_128898"></a>
+<table><tr><td><div class="element">Operation <b>executeProgram</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + executeProgram(in address : int) : void</li><li>Java : public void executeProgram(int address)</li></ul><a name="ref0_128642"></a>
+<table><tr><td><div class="element">Relation <b>CPU (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + CPU : <a href="class128002.html#refclass128002"><b>CPU</b></a></li><li>Java : public <a href="class128002.html#refclass128002"><b>CPU</b></a> CPU</li></ul><a name="ref0_129026"></a>
+<table><tr><td><div class="element">Relation <b>Program_Memory (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - Program_Memory : <a href="class128770.html#refclass128770"><b>Memory</b></a></li><li>Java : private <a href="class128770.html#refclass128770"><b>Memory</b></a> Program_Memory</li></ul></div>
+<p>All public operations : <a href="class128258.html#ref2_128898"><b>executeProgram</b></a> , <a href="class128258.html#ref2_128770"><b>loadProgram</b></a> </p>
+</body>
+</html>
