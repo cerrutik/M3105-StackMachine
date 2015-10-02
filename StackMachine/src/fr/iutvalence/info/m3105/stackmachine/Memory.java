@@ -9,4 +9,14 @@ public class Memory {
 		this.adresseMemoire2 = adresseMemoire2;
 	}
 
+	public int getStartAddress() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void write(int currentAddress, Object opCode) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
