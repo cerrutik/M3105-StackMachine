@@ -13,7 +13,7 @@ public class Machine
 		this.cpu.wireToProgramMemory(programMemory);
 		this.cpu.wireToExpStack(expStack);
 		this.cpu.wireToCallStack(callStack);
-		this.cpu.wireToIoSubsystem(ioSystem);
+		this.cpu.wireToIoSubsystem(ioSystem); 
 	}
 
 	public void loadProgram(Program program) throws AddressOutOfBoundsException

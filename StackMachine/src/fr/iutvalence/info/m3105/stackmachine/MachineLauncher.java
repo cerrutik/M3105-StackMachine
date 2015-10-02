@@ -51,7 +51,7 @@ public class MachineLauncher
 		
 		Memory programMemory= null;
 		Stack expStack = null;
-		Stack callStack = null;
+		Stack callStack = null; 
 
 		try
 		{
