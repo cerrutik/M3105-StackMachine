@@ -18,5 +18,10 @@ public class Memory {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public int get(int pc) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
  
 }

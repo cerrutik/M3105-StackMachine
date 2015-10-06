@@ -13,4 +13,9 @@ public class Stack
 			return -1;
 		}
 
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
